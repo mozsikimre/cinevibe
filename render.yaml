@@ -3,4 +3,4 @@ services:
     name: cinevibe
     env: static
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    staticPublishPath: ./cinevibe
