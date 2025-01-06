@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+/* ---------- Animations ---------- */
+  --animation-slow: 1s ease;
+  --animation-medium: 0.5s ease;
+  --animation-fast: 0.3s ease;
+  --animation-quick: 0.1s ease;
+
+  /* ---------- Colors ---------- */
+
+    /* WHITE COLOR | DARK */
+  --plain-white: #F2F2F2;
+
+    /* FONT COLOR | DARK */
+  --font-color: #F2F2F2;
+  --font-color-light: #e2e2e2;
+ 
+    /* PIC COLOR | DARK */
+  --picture-color: 0;
+  
+    /* CONTAINER COLOR | DARK */
+  --background: #0f0f0f;
+  --dark: #404040;
+  --middle: #696969;
+  --light: #909090;
+  --lighter: #adadad;
+  --highlight: #B58111;
+
+  /* GRADINET - TRANSPARENT COLOR | DARK */
+  --transparent-dark: rgba(57, 57, 57, 0.5);
+  --gradient: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(22, 22, 22, 1) 100%);
+  --gradient-rotated: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(22,22,22,1) 100%);
+  --horizontal-transparent: linear-gradient(270deg, rgba(0, 0, 0, 0) 40%, rgba(0,0,0,1) 100%);
+
+  /* BEVEL COLOR | DARK */
+  --bevel-light: rgba(255, 255, 255, 0.1) ;
+  --bevel-dark: rgba(0, 0, 0, 0.1);
+
+  /* SHADOW */
+  --shadow-regular: 0px 5px 20px -10px rgba(0,0,0,0.75);
+  --shadow-small: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.light-theme{
+  /* FONT COLOR | LIGHT */
+  --font-color: #1F1F1F;
+  --font-color-light: #5A5A5A;
+
+  /* PIC COLOR | LIGHT */
+  --picture-color: 1;
+
+  /* CONTAINER COLOR | LIGHT */
+  --dark: #E6E6E6;
+  --middle: #fcfcfc;
+  --light: #E6E6E6;
+  --highlight: #FFBA27;
+
+  /* GRADINET - TRANSPARENT COLOR | LIGHT */
+  --transparent-dark: rgba(255, 255, 255, 0.5);
+  --background: #DADADA;
+  --gradient: linear-gradient(to top, rgba(0, 0, 0, 0) 90%, rgba(22, 22, 22, 1) 100%);
+  --gradient-rotated: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(22,22,22,1) 100%);
+  
+  /* BEVEL COLOR | LIGHT */
+  --bevel-light: rgba(255, 255, 255, 0.1) ;
+  --bevel-dark: rgba(0, 0, 0, 0.1);
+}
