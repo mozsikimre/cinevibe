@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './themesDropdown.css';
+import './ThemesDropdown.css';
 
 const themes = ['Dark', 'Light'];
 
