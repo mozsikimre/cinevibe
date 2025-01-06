@@ -26,7 +26,7 @@ const GenreDropdown: React.FC<{ selectedGenres: string[]; setSelectedGenres: Rea
 
     {isOpen ? 'Select Genres' : selectedGenres.length > 0 ? `Selected Genres` : 'Select Genres'}
   </button>
-  <img src="src\assets\arrow.png" alt="arrow" className={`genre-arrow ${isOpen ? 'rotated' : ''}`}  />
+  <img src="arrow.png" alt="arrow" className={`genre-arrow ${isOpen ? 'rotated' : ''}`}  />
   {!isOpen && selectedGenres.length > 0 && (
     <div className="selected-genres">
       {selectedGenres.join(', ')}

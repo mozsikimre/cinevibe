@@ -11,8 +11,8 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ show }) => {
   return (
     <div className="loading-screen">
       <div className="image-container">
-      <img src="src\assets\v_logo.png" alt="Image 2" className="image-v" />
-        <img src="src\assets\c_logo.png" alt="Image 1" className="image-c" />
+      <img src="v_logo.png" alt="Image 2" className="image-v" />
+        <img src="c_logo.png" alt="Image 1" className="image-c" />
 
       </div>
       <p className="loading-text">Cinevibe</p>

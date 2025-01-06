@@ -67,7 +67,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
       <div className={`left-card ${middleCardPosition === 'left' ? 'left-to-middle' : ''}`}>
         <h1>Forgot Password</h1>
         <form onSubmit={handlePasswordResetSubmit}>
-          <img src="src/assets/user.png" alt="user" />
+          <img src="user.png" alt="user" />
           <input
             type="email"
             placeholder="Email Address"
@@ -91,7 +91,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
                       }>
         <h1>Sign In</h1>
         <form onSubmit={(e) => handleSubmit(e, true)}> {/* Login küldés */}
-          <img src="src/assets/user.png" alt="user" />
+          <img src="user.png" alt="user" />
           <input
             type="email"
             placeholder="Email"
@@ -99,7 +99,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <img src="src/assets/lock.png" alt="user" />
+          <img src="lock.png" alt="user" />
           <input
             type="password"
             placeholder="Password"
@@ -121,7 +121,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
       <div className={`right-card ${middleCardPosition === 'right' ? 'right-to-middle' : ''}`}>
         <h1>Sign Up</h1>
         <form onSubmit={(e) => handleSubmit(e, false)}> {/* Regisztráció küldés */}
-          <img src="src/assets/id-card.png" alt="user" />
+          <img src="id-card.png" alt="user" />
           <input
             type="text"
             placeholder="Username"
@@ -129,7 +129,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
             onChange={(e) => setUsername(e.target.value)}
             required
           />
-          <img src="src/assets/user.png" alt="user" />
+          <img src="user.png" alt="user" />
           <input
             type="email"
             placeholder="Email"
@@ -137,7 +137,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <img src="src/assets/lock.png" alt="user" />
+          <img src="lock.png" alt="user" />
           <input
             type="password"
             placeholder="Password"

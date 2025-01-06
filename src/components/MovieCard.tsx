@@ -47,13 +47,13 @@ const MovieCard: React.FC<MovieCardProps> = ({
 
         <div className='buttons'>
           <button className='dislike' onClick={onDislike}>
-            <img src="src/assets/close.png" alt="dislike" />
+            <img src="close.png" alt="dislike" />
           </button>
           <button className='mark' onClick={onMark}>
-            <img src="src/assets/bookmark.png" alt="mark" />
+            <img src="bookmark.png" alt="mark" />
           </button>
           <button className='like' onClick={onLike}>
-            <img src="src/assets/like.png" alt="like" />
+            <img src="like.png" alt="like" />
           </button>
         </div>
       </div>
@@ -74,7 +74,7 @@ const MovieCard: React.FC<MovieCardProps> = ({
             <span>Rating</span>
             <p className='rating'>
               {voteAverage + ' / 10 ' || 'Nincs adat'}
-              <img src="src/assets/star.png" alt="star" />
+              <img src="star.png" alt="star" />
             </p>
           </div>
           <div className='runtime-container'>

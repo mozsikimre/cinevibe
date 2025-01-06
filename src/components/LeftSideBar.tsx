@@ -104,12 +104,12 @@ const LeftSideBar: React.FC<LeftSideBarProps> = ({
     <div className={`left-container ${isLeftHidden ? 'hidden' : ''}`}>
       <div className='user-container'>
         <div className='user-icon-container'>
-          <img src="src/assets/user.png" alt="user-icon" />
+          <img src="user.png" alt="user-icon" />
         </div>
         {username ? username : 'Guest'}
       </div>
 
-      <img src={`src/assets/eye${isLeftHidden ? '-hidden' : ''}.png`} 
+      <img src={`eye${isLeftHidden ? '-hidden' : ''}.png`} 
             alt="hide-button-left" 
             className='hide-button-left' 
             onClick={handleToggle}
@@ -213,16 +213,16 @@ const LeftSideBar: React.FC<LeftSideBarProps> = ({
 
       <div className='bottom-btn-container'>
         <button className='auth-btn' onClick={handleAuthClick}>
-          <img src={`src/assets/${username ? 'logout' : 'login'}.png`} alt="auth-icon" />
+          <img src={`${username ? 'logout' : 'login'}.png`} alt="auth-icon" />
           <p>{username ? 'Logout' : 'Login'}</p>
         </button>
       </div>
       <div className='powered-by'>
         <p>Powered By</p>
         <div className='powered-by-img'>
-          <img src="src\assets\tmdb.png" alt="tmdb-mark" className='tmdb'/>
-          <img src="src\assets\flaticon.png" alt="flaticon-mark" className='flaticon'/>
-          <img src="src\assets\firebase.png" alt="firebase" className='firebase' />
+          <img src="tmdb.png" alt="tmdb-mark" className='tmdb'/>
+          <img src="flaticon.png" alt="flaticon-mark" className='flaticon'/>
+          <img src="firebase.png" alt="firebase" className='firebase' />
         </div>
       </div>
     </div>

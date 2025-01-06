@@ -97,7 +97,7 @@ const handleDelete = async (listType: 'like' | 'dislike' | 'mark', movie: { titl
     <div className={`right-container ${isRightHidden ? 'hidden' : ''}`}>
       <span className={`header-text ${isRightHidden ? 'hidden' : ''}`}>My List</span>
       <img
-        src={`src/assets/eye${isRightHidden ? '-hidden' : ''}.png`}
+        src={`eye${isRightHidden ? '-hidden' : ''}.png`}
         alt="hide-button-right"
         onClick={handleToggle}
         className={`${isRightHidden ? 'hidden' : ''}`}

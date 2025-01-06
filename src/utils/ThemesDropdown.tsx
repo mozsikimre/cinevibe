@@ -29,7 +29,7 @@ const ThemeSelector: React.FC = () => {
 
         {`Selected Theme · ${selectedTheme}`}
       </button>
-      <img src="src\assets\arrow.png" alt="arrow" className={`themes-arrow ${isOpen ? 'rotated' : ''}`}  />
+      <img src="arrow.png" alt="arrow" className={`themes-arrow ${isOpen ? 'rotated' : ''}`}  />
       {(
         <ul className={`themes-dropdown-menu ${isOpen ? 'open' : ''}`}>
           {themes.map((theme) => (

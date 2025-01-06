@@ -35,7 +35,7 @@ const Toast: React.FC<ToastProps> = ({ message, onClose }) => {
       <div className="toast">
         <span>{message}</span>
         <button className="close-btn" onClick={onClose}>
-            <img src="src\assets\close.png" alt="close" />
+            <img src="close.png" alt="close" />
         </button>
         <div className="progress-bar" style={{ width: `${progress}%` }} />
       </div>

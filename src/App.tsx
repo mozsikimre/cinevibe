@@ -42,19 +42,19 @@ const MainPage: React.FC = () => {
             className={`nav-button ${currentSection === 'left' ? 'active' : ''}`}
             onClick={() => handleSectionChange('left')}
           >
-            <img src="src\assets\id-card.png" alt="left" />
+            <img src="id-card.png" alt="left" />
           </button>
           <button
             className={`nav-button ${currentSection === 'middle' ? 'active' : ''}`}
             onClick={() => handleSectionChange('middle')}
           >
-            <img src="src\assets\hot-sale.png" alt="middle" />
+            <img src="hot-sale.png" alt="middle" />
           </button>
           <button
             className={`nav-button ${currentSection === 'right' ? 'active' : ''}`}
             onClick={() => handleSectionChange('right')}
           >
-            <img src="src\assets\archive.png" alt="right" />
+            <img src="archive.png" alt="right" />
           </button>
         </div>
 
