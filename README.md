@@ -6,6 +6,8 @@ Cinevibe egy modern, interaktív webalkalmazás, amely segít a felhasználókna
 
 A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővülő streaming platformok és hatalmas tartalomkínálat világában. Az intuitív kezelőfelület és a testreszabható szűrési lehetőségek révén a felhasználók gyorsan megtalálhatják az érdeklődésüknek megfelelő filmeket.
 
+![Main-container](https://github.com/user-attachments/assets/208ad45e-8999-4c08-a95f-790987376288)
+
 ## 🚀 Főbb Funkciók
 
 - **Filmkártyás gesztusvezérlés** – Jobbra húzás: tetszik, balra húzás: nem tetszik, felfelé húzás: kedvenc.
