@@ -56,7 +56,8 @@ npm run dev
 #### 5️⃣ Nyisd meg az alkalmazást a böngésződben localhost segítségével.
 
 ## ⛓️ Kipróbálás
- - [Indítás](https://cinevibe.onrender.com/)
+Az alábbi link megnyitásával kipróbálható az alkalmazás.
+ - [Indítás](https://cinevibe.onrender.com/) *Jelenleg telefonon történő használat optimalizálás alatt van.*
    
 ## 🚀 Rólam
 #### 👋 Üdvözöllek!
