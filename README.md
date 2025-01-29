@@ -21,19 +21,19 @@ Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és 
   - TMDb API
 
 ##Telepítés és futtatás
-- Klónozd a repót:
+- 1. Klónozd a repót:
 
 ```js
 git clone https://github.com/<felhasználónév>/cinevibe.git  
 cd cinevibe
 ```
-  - Telepítsd a szükséges függőségeket:
+- 2. Telepítsd a szükséges függőségeket:
 
 ```js
 npm install  
 ```
 
-- Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
+- 3. Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
 
 ```js
 VITE_TMDB_API_KEY=your_tmdb_api_key  
@@ -41,9 +41,9 @@ VITE_FIREBASE_API_KEY=your_firebase_api_key
 # Add meg a többi Firebase konfigurációt is
 ```
 
--- Indítsd el a fejlesztői szervert:
+- 4. Indítsd el a fejlesztői szervert:
 ```js
 npm run dev
 ```
-Nyisd meg az alkalmazást a böngésződben a következő címen: http://localhost:5173.
+- 5. Nyisd meg az alkalmazást a böngésződben a következő címen: http://localhost:5173.
 
