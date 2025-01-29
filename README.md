@@ -32,7 +32,7 @@ A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővü
 - 1️⃣ Klónozd a repót:
 
 ```js
-git clone https://github.com/<felhasználónév>/cinevibe.git  
+git clone https://github.com/mozsikimre/cinevibe.git  
 cd cinevibe
 ```
 - 2️⃣ Telepítsd a szükséges függőségeket:
