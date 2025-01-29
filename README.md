@@ -24,7 +24,7 @@ Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és 
   - Firebase (Authentication, Firestore)
   - TMDb API
 
-##Telepítés és futtatás
+## Telepítés és futtatás
 - 1. Klónozd a repót:
 
 ```js
