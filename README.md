@@ -21,6 +21,12 @@ A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővü
 - **Sötét és adaptív téma** – Felhasználó által választható megjelenítési módok.
 - **Egyedi töltőképernyő** – Animált Cinevibe logó és dinamikus szövegmegjelenítés a jobb vizuális élményért.
 
+![Card-1](https://github.com/user-attachments/assets/ea7df17f-bcec-44c1-a8d3-4835afbc728b)
+![Card-2](https://github.com/user-attachments/assets/c1cdf5b9-7acf-4864-aa21-3214e921b892)
+![Swipe](https://github.com/user-attachments/assets/f973b187-50d8-45d6-882d-647296138258)
+![Right_container](https://github.com/user-attachments/assets/cd83df68-4dd5-4722-be15-927717f6c4f6)
+![Left_container](https://github.com/user-attachments/assets/91df7bd2-d28d-421e-8308-3e377db336d2)
+
 ## 🛠️ Technológiai Stack
 - Frontend:
   - React
@@ -29,6 +35,9 @@ A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővü
 - Backend:
   - Firebase (Authentication, Firestore)
   - TMDb API
+  
+![DB](https://github.com/user-attachments/assets/8d10ef91-1691-498f-9885-81ad5c6144d1)
+![Auth](https://github.com/user-attachments/assets/ede79677-74d0-4c08-9bcb-ea9724fa7d7c)
 
 ## 🔧 Telepítés és Futtatás
 #### 1️⃣ Klónozd a repót:
