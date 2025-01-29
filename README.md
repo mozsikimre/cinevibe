@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+# Cinevibe 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és rendszerezni a filmeket!
 
-Currently, two official plugins are available:
+## Főbb funkciók
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Filmajánló rendszer: Gesztusvezérlésen alapuló filmkártyák, amelyek segítségével a felhasználók tetszést, nemtetszést vagy kiemelést jelezhetnek.
+- Szűrők: Szűrés műfaj, értékelés, játékidő, és megjelenési év szerint.
+- Firebase integráció: Felhasználói autentikáció (e-mail, Google), adatbázis a kedvelt, nem kedvelt, és kiemelt filmek tárolására.
+- Testreszabhatóság: Adaptív és sötét téma támogatása.
+- Dinamikus háttér: A film poszterének színei alapján változó háttér.
+- Töltőképernyő: Animált logó és szöveg a márkaerősítés érdekében.
 
-## Expanding the ESLint configuration
+## Technológiai stack
+- Frontend:
+-- React
+-- TypeScript
+--Vite
+- Backend:
+-- Firebase (Authentication, Firestore)
+-- TMDb API
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+##Telepítés és futtatás
+- Klónozd a repót:
 
 ```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+git clone https://github.com/<felhasználónév>/cinevibe.git  
+cd cinevibe
 ```
+-- Telepítsd a szükséges függőségeket:
+
+```js
+npm install  
+```
+
+-- Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
+
+```js
+VITE_TMDB_API_KEY=your_tmdb_api_key  
+VITE_FIREBASE_API_KEY=your_firebase_api_key  
+# Add meg a többi Firebase konfigurációt is
+```
+
+-- Indítsd el a fejlesztői szervert:
+```js
+npm run dev
+```
+Nyisd meg az alkalmazást a böngésződben a következő címen: http://localhost:5173.
+
