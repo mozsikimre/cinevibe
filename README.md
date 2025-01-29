@@ -25,44 +25,49 @@ A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővü
 
 
 ## 🛠️ Technológiai Stack
-- Frontend:
-  - React
-  - TypeScript
-  - Vite
-- Backend:
-  - Firebase (Authentication, Firestore)
-  - TMDb API
+- #### Frontend:
+  - **React** – Komponensalapú UI fejlesztés
+  - **TypeScript** – Erősebb típusellenőrzés és jobb fejlesztői élmény
+  - **Vite – Gyors** fejlesztői környezet és build rendszer
+  - **Framer Motion** – Animációk és mozgáseffektek
+- #### Backend:
+  - **Firebase** (Authentication, Firestore)
+    - Firebase Authentication – E-mail/jelszó és Google bejelentkezés
+    - Firestore Database – Valós idejű NoSQL adatbázis a felhasználói adatokhoz
+  - **TMDb API** – Filmes adatbázis
 
   ![google](https://github.com/user-attachments/assets/be301153-62b2-493a-b668-154b7af04ea9)
 
 ## 🔧 Telepítés és Futtatás
+
 #### 1️⃣ Klónozd a repót:
 
-```js
+```bash
 git clone https://github.com/mozsikimre/cinevibe.git  
 cd cinevibe
 ```
 #### 2️⃣ Telepítsd a szükséges függőségeket:
 
-```js
+```bash
 npm install  
 ```
 
 #### 3️⃣ Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
 
-```js
+```bash
 VITE_TMDB_API_KEY=your_tmdb_api_key  
 VITE_FIREBASE_API_KEY=your_firebase_api_key  
 # Add meg a többi Firebase konfigurációt is
 ```
 
 #### 4️⃣ Indítsd el a fejlesztői szervert:
-```js
+```bash
 npm run dev
 ```
 #### 5️⃣ Nyisd meg az alkalmazást a böngésződben localhost segítségével.
 
 ## ⛓️ Kipróbálás
+
 Az alábbi link megnyitásával kipróbálható az alkalmazás.
  - [Indítás](https://cinevibe.onrender.com/) *Jelenleg telefonon történő használat optimalizálás alatt van.*
    
