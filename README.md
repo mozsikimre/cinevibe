@@ -1,21 +1,25 @@
-# Cinevibe 🎥
+# 🎬 Cinevibe – Interaktív Filmajánló Webalkalmazás
 
 Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és rendszerezni a filmeket!
 
-## Főbb funkciók
+## 🚀 Főbb Funkciók
 
-- Filmajánló rendszer: Gesztusvezérlésen alapuló filmkártyák, amelyek segítségével a felhasználók tetszést, nemtetszést vagy kiemelést jelezhetnek.
-- Szűrők: Szűrés műfaj, értékelés, játékidő, és megjelenési év szerint.
-- Firebase integráció: Felhasználói autentikáció (e-mail, Google), adatbázis a kedvelt, nem kedvelt, és kiemelt filmek tárolására.
-- Testreszabhatóság: Adaptív és sötét téma támogatása.
-- Dinamikus háttér: A film poszterének színei alapján változó háttér.
-- Töltőképernyő: Animált logó és szöveg a márkaerősítés érdekében.
+- Filmkártyás gesztusvezérlés – Jobbra húzás: tetszik, balra húzás: nem tetszik, felfelé húzás: kedvenc.
+- Adaptív ajánlórendszer – Véletlenszerűen kiválasztott filmek, amelyeket a felhasználó előző preferenciái befolyásolhatnak.
+- Szűrők – Filmhossz, értékelés, megjelenési év és műfaj szerinti szűrés.
+- Felhasználói hitelesítés – Bejelentkezés Google-fiókkal vagy e-mail/jelszó párossal a Firebase Authentication segítségével.
+- Kedvencek és tiltólista – A felhasználók elmenthetik és rendszerezhetik a kedvenc vagy mellőzni kívánt filmjeiket.
+- Valós idejű adatbázis – A felhasználói adatok és filmpreferenciák Firestore adatbázisban tárolódnak és frissülnek.
+- Dinamikus háttérszínek – Az aktuális film poszterének domináns színe alapján változó háttér.
+- Reszponzív dizájn – Asztali és mobil eszközökön is optimalizált megjelenés.
+- Sötét és adaptív téma – Felhasználó által választható megjelenítési módok.
+- Egyedi töltőképernyő – Animált Cinevibe logó és dinamikus szövegmegjelenítés a jobb vizuális élményért.
 
-## Technológiai stack
+## 🛠️ Technológiai Stack
 - Frontend:
   - React
   - TypeScript
-  -Vite
+  - Vite
 - Backend:
   - Firebase (Authentication, Firestore)
   - TMDb API
