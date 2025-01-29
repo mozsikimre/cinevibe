@@ -2,6 +2,10 @@
 
 Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és rendszerezni a filmeket!
 
+Cinevibe egy modern, interaktív webalkalmazás, amely segít a felhasználóknak új filmeket felfedezni és rendszerezni egy intuitív gesztusvezérelt rendszer segítségével. Az alkalmazás a The Movie Database (TMDb) API adataira épül, és a Google Firebase biztosítja az autentikációt és az adatbázis-kezelést.
+
+A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővülő streaming platformok és hatalmas tartalomkínálat világában. Az intuitív kezelőfelület és a testreszabható szűrési lehetőségek révén a felhasználók gyorsan megtalálhatják az érdeklődésüknek megfelelő filmeket.
+
 ## 🚀 Főbb Funkciók
 
 - Filmkártyás gesztusvezérlés – Jobbra húzás: tetszik, balra húzás: nem tetszik, felfelé húzás: kedvenc.
