@@ -24,20 +24,20 @@ Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és 
   - Firebase (Authentication, Firestore)
   - TMDb API
 
-## Telepítés és futtatás
-- 1. Klónozd a repót:
+## 🔧 Telepítés és Futtatás
+- 1️⃣ Klónozd a repót:
 
 ```js
 git clone https://github.com/<felhasználónév>/cinevibe.git  
 cd cinevibe
 ```
-- 2. Telepítsd a szükséges függőségeket:
+- 2️⃣ Telepítsd a szükséges függőségeket:
 
 ```js
 npm install  
 ```
 
-- 3. Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
+- 3️⃣ Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
 
 ```js
 VITE_TMDB_API_KEY=your_tmdb_api_key  
@@ -45,9 +45,9 @@ VITE_FIREBASE_API_KEY=your_firebase_api_key
 # Add meg a többi Firebase konfigurációt is
 ```
 
-- 4. Indítsd el a fejlesztői szervert:
+- 4️⃣ Indítsd el a fejlesztői szervert:
 ```js
 npm run dev
 ```
-- 5. Nyisd meg az alkalmazást a böngésződben a következő címen: http://localhost:5173.
+- 5️⃣ Nyisd meg az alkalmazást a böngésződben a következő címen: http://localhost:5173.
 
