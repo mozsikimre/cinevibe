@@ -32,9 +32,8 @@ A projekt célja, hogy megoldja a filmválasztás problémáját az egyre bővü
 - Backend:
   - Firebase (Authentication, Firestore)
   - TMDb API
-  
-![DB](https://github.com/user-attachments/assets/8d10ef91-1691-498f-9885-81ad5c6144d1)
-![Auth](https://github.com/user-attachments/assets/ede79677-74d0-4c08-9bcb-ea9724fa7d7c)
+
+  ![google](https://github.com/user-attachments/assets/be301153-62b2-493a-b668-154b7af04ea9)
 
 ## 🔧 Telepítés és Futtatás
 #### 1️⃣ Klónozd a repót:
