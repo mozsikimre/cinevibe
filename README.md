@@ -13,12 +13,12 @@ Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és 
 
 ## Technológiai stack
 - Frontend:
--- React
--- TypeScript
---Vite
+  - React
+  - TypeScript
+  -Vite
 - Backend:
--- Firebase (Authentication, Firestore)
--- TMDb API
+  - Firebase (Authentication, Firestore)
+  - TMDb API
 
 ##Telepítés és futtatás
 - Klónozd a repót:
@@ -27,13 +27,13 @@ Egy interaktív webalkalmazás, amely segít a felhasználóknak felfedezni és 
 git clone https://github.com/<felhasználónév>/cinevibe.git  
 cd cinevibe
 ```
--- Telepítsd a szükséges függőségeket:
+  - Telepítsd a szükséges függőségeket:
 
 ```js
 npm install  
 ```
 
--- Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
+- Hozz létre egy .env fájlt, és add hozzá a TMDb API kulcsot és Firebase konfigurációt:
 
 ```js
 VITE_TMDB_API_KEY=your_tmdb_api_key  
