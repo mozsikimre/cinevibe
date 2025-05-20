@@ -66,11 +66,6 @@ npm run dev
 ```
 #### 5️⃣ Nyisd meg az alkalmazást a böngésződben localhost segítségével.
 
-## ⛓️ Kipróbálás
-
-Az alábbi link megnyitásával kipróbálható az alkalmazás.
- - [Indítás](https://cinevibe.onrender.com/) *Jelenleg telefonon történő használat optimalizálás alatt van.*
-   
 ## 🚀 Rólam
 #### 👋 Üdvözöllek!
 Mérnökinformatikus hallgató vagyok a Debreceni Egyetemen, aki elkötelezett a tanulásban és az előrehaladásban. Ambícióim magasak, és szenvedélyesen érdekel a webes alkalmazások fejlesztése. Tapasztalatom főleg a Front End területén van, de nyitott vagyok a Back End kihívásaira is. Csapatjátékosnak tartom magam, és könnyen alkalmazkodom új környezetekhez és technológiákhoz. Alapszinten jártas vagyok Java és C# nyelvekben, és izgatottan várom a lehetőségeket az ezeken a területeken való fejlődésre és alkalmazásra.
